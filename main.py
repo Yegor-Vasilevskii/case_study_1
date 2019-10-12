@@ -4,20 +4,31 @@
 import turtle
 
 def square (x, y, size, color, angele)
-    #TODO: (Yegor-Vasilevskii) поставить задачу всем, ну и забабахать кукую-то деталь
+#TODO: (Yegor-Vasilevskii
 
 
 
 
 
 
-
-to do (MargaritaPestretsova) жги треугольники или круги
-
-
+def traingle (x, y, size, color, angele)
+#TODO: (MargaritaPestretsova)
 
 
 
 
 
-to do (ChristinaPokareva) жги квадраты или ромбы
+
+def round (x, y, size, color, angele)
+#TODO (ChristinaPokareva)
+
+
+
+
+
+
+def all figures (x, y, size, color, angele)
+#TODO (StepanDt)
+
+
+pass
