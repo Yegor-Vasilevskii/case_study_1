@@ -5,6 +5,8 @@ import turtle
 
 def square (x, y, size, color, angele)
     #TODO: (Yegor-Vasilevskii) поставить задачу всем, ну и забабахать кукую-то деталь
+    from turtle import *
+color('red', 'yellow','blue','black','brown')
 
 
 
