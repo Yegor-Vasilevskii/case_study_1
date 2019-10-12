@@ -13,6 +13,8 @@ color('red', 'yellow','blue','black','brown')
 
 
 
+def traingle (x, y, size, color, angele)
+#TODO: (MargaritaPestretsova)
 
 to do (MargaritaPestretsova) жги треугольники или круги
 
@@ -20,7 +22,16 @@ to do (MargaritaPestretsova) жги треугольники или круги
 
 
 
+def round (x, y, size, color, angele)
+#TODO (ChristinaPokareva)
 
 
-to do (ChristinaPokareva) жги квадраты или ромбы
-#это сложноjhdkjhci
+
+
+
+
+def all figures (x, y, size, color, angele)
+#TODO (StepanDt)
+
+
+pass
