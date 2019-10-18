@@ -16,33 +16,42 @@ color('red', 'yellow','blue','black','brown')
 
 def traingle (x1, y1, x2, y2, x3, y3, f_color='white')
     #TODO: (MargaritaPestretsova)
+  
+import turtle
+import math
+
+
+def traingle(x1, y1, x2, y2, x3, y3, f_color='white'):
+
     """
-    Function  which describes  the traingle
+    function  which describes the traingle
     :param x1: position of the first point horizontal 
     :param y1: position of the first point vertical
     :param x2: position of the second point horizontal
     :param y2: position of the second point vertical
     :param x3: position of the third point horizontal
     :param y3: position of the third point vertical
-    
 
     """
-    speed(7)
-    color(f_color)
-    hideturtle()
+    turtle.speed(7)
+    turtle.color(f_color)
+    turtle.hideturtle()
 
-    penup()
-    goto(x1, y1)
+    turtle.penup()
+    turtle.goto(x1, y1)
 
-    pendown()
-    begin_fill()
-    goto(x2, y2)
-    goto(x3, y3)
-    goto(x1, y1)
-    end_fill()
-    penup()
+    turtle.pendown()
+    turtle.begin_fill()
+    turtle.goto(x2, y2)
+    turtle.goto(x3, y3)
+    turtle.goto(x1, y1)
+    turtle.end_fill()
+    turtle.penup()
 
 
+traingle(100, -20, 40, -30, 70, -50, f_color='red')
+
+turtle.done()
 
 
 
