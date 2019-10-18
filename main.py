@@ -1,6 +1,7 @@
 # Case_1
-#Итак, нам надо сотворить нечто чудесное и прекрасное.
-#Для начала можете придумать идеи, а дальше разберемся, кто что делает (или не делает)
+#developers: Pokareva Christina (75%)
+#            Pestretsova Margarita
+#            Vasilevsky Egor
 import turtle
 
 def square (x, y, size, color, angele)
@@ -22,13 +23,24 @@ to do (MargaritaPestretsova) жги треугольники или круги
 
 
 
-def round (x, y, size, color, angele)
 #TODO (ChristinaPokareva)
+turtle.hideturtle()
+turtle.fillcolor("blue")
+turtle.begin_fill()
+turtle.circle()
+turtle.end.fill()
 
-
-
-
-
+turtle.hideturtle()
+turtle.fillcolor("red")
+turtle.begin_fill()
+turtle.forward (100)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(100)
+turtle.forward(100)
+turtle.end_fill()
 
 def all figures (x, y, size, color, angele)
 #TODO (StepanDt)
