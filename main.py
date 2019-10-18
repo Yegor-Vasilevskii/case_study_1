@@ -17,7 +17,7 @@ color('red', 'yellow','blue','black','brown')
 def traingle (x1, y1, x2, y2, x3, y3, f_color='white')
     #TODO: (MargaritaPestretsova)
     """
-    функция, описывающая треугольник
+    Function  which describes  the traingle
     :param x1: position of the first point horizontal 
     :param y1: position of the first point vertical
     :param x2: position of the second point horizontal
