@@ -1,6 +1,6 @@
 # Case_1
 #developers: Pokareva Christina (55%)
-#            Pestretsova Margarita (25%)
+#            Pestretsova Margarita (38%)
 #            Vasilevsky Egor (50%)
 import turtle
 
@@ -267,9 +267,129 @@ turtle.end_fill()
 
 turtle.penup()
 
-win.exitonclick()
+
 
 #TODO: (MargaritaPestretsova)
+
+turtle.up()
+turtle.setposition(-220, -220)
+turtle.left(90)
+
+turtle.down()
+turtle.color("#C71585")
+turtle.left(90)
+turtle.forward(113)
+
+turtle.color("purple")
+turtle.fillcolor("purple")
+turtle.begin_fill()
+turtle.forward(20)
+turtle.right(135)
+turtle.forward(28)
+turtle.right(135)
+turtle.forward(20)
+turtle.end_fill()
+
+turtle.color("#C71585")
+turtle.begin_fill()
+turtle.left(135)
+turtle.forward(80)
+turtle.right(90)
+turtle.forward(80)
+turtle.end_fill()
+
+turtle.right(45)
+turtle.up()
+turtle.forward(5)
+turtle.right(90)
+turtle.forward(10)
+turtle.down()
+turtle.color("yellow")
+turtle.begin_fill()
+turtle.forward(70)
+turtle.left(135)
+turtle.forward(100)
+turtle.left(135)
+turtle.forward(70)
+turtle.end_fill()
+
+##
+turtle.up()
+turtle.forward(5)
+turtle.right(90)
+turtle.forward(15)
+
+turtle.down()
+turtle.left(90)
+
+
+
+
+turtle.color("#40E0D0")
+turtle.begin_fill()
+turtle.forward(70)
+turtle.right(135)
+turtle.forward(70)
+turtle.right(90)
+turtle.forward(70)
+turtle.right(135)
+turtle.forward(25)
+turtle.end_fill()
+
+turtle.up()
+turtle.right(180)
+turtle.forward(35)
+turtle.down()
+turtle.color("#9ACD32")
+turtle.begin_fill()
+turtle.forward(70)
+turtle.left(135)
+turtle.forward(70)
+turtle.left(45)
+turtle.forward(70)
+turtle.left(135)
+turtle.forward(70)
+turtle.end_fill()
+
+
+turtle.up()
+turtle.right(135)
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(5)
+turtle.right(45)
+turtle.down()
+turtle.color("#FF69B4")
+turtle.begin_fill()
+turtle.forward(30)
+turtle.right(90)
+turtle.forward(30)
+turtle.right(135)
+turtle.forward(42)
+turtle.end_fill()
+
+
+turtle.right(135)
+turtle.up()
+turtle.forward(35)
+turtle.down()
+turtle.color("#FF7F50")
+turtle.begin_fill()
+turtle.forward(30)
+turtle.right(90)
+turtle.forward(30)
+turtle.right(90)
+turtle.forward(30)
+turtle.right(90)
+turtle.end_fill()
+
+
+turtle.up()
+turtle.hideturtle()
+
+turtle.mainloop()
+
+win.exitonclick()
 
 #TODO (StepanDt)
 
