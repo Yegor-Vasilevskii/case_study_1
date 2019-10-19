@@ -1,5 +1,5 @@
 # Case_1
-#developers: Pokareva Christina (45%)
+#developers: Pokareva Christina (55%)
 #            Pestretsova Margarita (25%)
 #            Vasilevsky Egor (50%)
 import turtle
