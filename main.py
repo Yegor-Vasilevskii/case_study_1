@@ -151,10 +151,12 @@ turtle.begin_fill()
 turtle.circle(23)
 turtle.end_fill()
 
-turtle.left(90)
-turtle.goto(0, 0)
-
 #TODO (ChristinaPokareva)
+
+turtle.penup()
+turtle.goto(0, 0)
+turtle.right(90)
+turtle.pendown
 
 win = turtle.Screen()
 turtle.shape('arrow')
