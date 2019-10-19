@@ -268,7 +268,6 @@ turtle.end_fill()
 turtle.penup()
 
 
-
 #TODO: (MargaritaPestretsova)
 
 turtle.up()
@@ -313,7 +312,7 @@ turtle.left(135)
 turtle.forward(70)
 turtle.end_fill()
 
-##
+
 turtle.up()
 turtle.forward(5)
 turtle.right(90)
@@ -321,8 +320,6 @@ turtle.forward(15)
 
 turtle.down()
 turtle.left(90)
-
-
 
 
 turtle.color("#40E0D0")
